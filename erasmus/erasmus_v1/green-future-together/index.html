@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/climamap_logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>ClimaMap</title>
+    <meta name="description" content="Erasmus+ projesi ClimaMap: dört ortak ülkede kent ölçeğinde iklim verisi, erken uyarı ve CLIMA karar destek asistanı." />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#efece4" />
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#161512" />
+
+    <!-- Inter (optik boyutlu) gövde için, Newsreader başlıklar için -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400..700&family=Newsreader:opsz,wght@6..72,400..600&display=swap" rel="stylesheet">
+
+    <!-- Google Model Viewer Web Component for 3D GLB/GLTF Display -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  </head>
+  <body class="antialiased overflow-hidden select-none" oncontextmenu="return false;">
+    <script>
+      window.addEventListener('contextmenu', function(e) { e.preventDefault(); }, { capture: true });
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
