@@ -19,7 +19,7 @@ interface ModelViewer3DProps {
 }
 
 export const ModelViewer3D: React.FC<ModelViewer3DProps> = ({
-  src = '/models/school.glb',
+  src = './models/school.glb',
   alt,
   height = 240,
   title,
@@ -51,9 +51,9 @@ export const ModelViewer3D: React.FC<ModelViewer3DProps> = ({
     };
 
     const handleError = () => {
-      // Şehre özel dosya yoksa (/models/trabzon.glb vb.), genel school.glb modelini dene
-      if (currentSrc !== '/models/school.glb') {
-        setCurrentSrc('/models/school.glb');
+      // Şehre özel dosya yoksa (./models/trabzon.glb vb.), genel school.glb modelini dene
+      if (currentSrc !== './models/school.glb') {
+        setCurrentSrc('./models/school.glb');
       } else {
         setIsLoading(false);
         setHasError(true);

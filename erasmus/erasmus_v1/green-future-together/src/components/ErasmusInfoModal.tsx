@@ -65,7 +65,7 @@ export const ErasmusInfoModal: React.FC<ErasmusInfoModalProps> = ({ isOpen, onCl
             <div className="shrink-0 px-7 pt-6 pb-4 flex items-start justify-between gap-4">
               <div className="flex items-start gap-3.5">
                 <img
-                  src="/climamap_logo.png"
+                  src="./climamap_logo.png"
                   alt="ClimaMap Logo"
                   className="w-11 h-11 rounded-xl object-contain shadow-sm mt-0.5 shrink-0"
                 />

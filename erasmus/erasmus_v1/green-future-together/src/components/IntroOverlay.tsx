@@ -120,7 +120,7 @@ export const IntroOverlay: React.FC<IntroOverlayProps> = ({ isOpen, onComplete }
           {/* Edge-to-Edge Screen-Fitted Video */}
           <video
             ref={videoRef}
-            src="/climamap_intro.mp4"
+            src="./climamap_intro.mp4"
             playsInline
             autoPlay
             preload="auto"

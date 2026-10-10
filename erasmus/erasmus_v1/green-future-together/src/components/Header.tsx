@@ -44,7 +44,7 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="bar absolute top-0 left-0 right-0 z-40 h-[3.25rem] pl-4 pr-2.5 flex items-center justify-between gap-3">
       <div className="flex items-center gap-2.5 min-w-0">
         <img
-          src="/climamap_logo.png"
+          src="./climamap_logo.png"
           alt="ClimaMap Logo"
           className="w-7 h-7 rounded-lg object-contain shadow-sm shrink-0"
         />

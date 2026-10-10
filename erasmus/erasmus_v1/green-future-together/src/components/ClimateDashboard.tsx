@@ -327,7 +327,7 @@ export const ClimateDashboard: React.FC<ClimateDashboardProps> = ({
 
                   {/* 3D Dijital İkiz Modeli (<model-viewer>) */}
                   <ModelViewer3D
-                    src={`/models/${city.id}.glb`}
+                    src={`./models/${city.id}.glb`}
                     alt={`${localizedCityName} 3D`}
                     title={`${localizedCityName} ${t('digitalTwin3D')}`}
                     height={220}
